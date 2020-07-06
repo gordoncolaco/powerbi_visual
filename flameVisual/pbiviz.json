@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "flame",
+        "displayName": "flame",
+        "guid": "flameB278C635265047FB81294A13DEDBD9CF",
+        "visualClassName": "Visual",
+        "version": "1.1.1",
+        "description": "This visual is used to crate a flame gauge",
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "",
+        "email": ""
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

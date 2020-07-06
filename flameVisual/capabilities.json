@@ -1,0 +1,105 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Measure",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "flame": {
+            "displayName": "Flame",
+            "properties": {
+                "emptyFlameColor": {
+                    "displayName": "Empty Flame Color",
+                    "description": "The color of the emplty flame.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "flameColor1": {
+                    "displayName": "Flame Color Grdient 1",
+                    "description": "The color of the flame.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }, 
+                "flameColor2": {
+                    "displayName": "Flame Color Grdient 2",
+                    "description": "The color of the flame.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "flameThickness": {
+                    "displayName": "Flame Thickness",
+                    "description": "The flame thickness.",
+                    "type": {
+                        "numeric": true
+                    }
+                }, 
+                "flameBorder": {
+                    "displayName": "Flame Border Color",
+                    "description": "The flame border color.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                } ,
+                "flameScale": {
+                    "displayName": "Flame Scale",
+                    "description": "The flame thickness.",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "axisFontSize": {
+                    "displayName": "Axis Font Size",
+                    "description": "Font size of Axis",
+                    "type": {
+                        "formatting": { 
+                            "fontSize": true 
+                        } 
+                    }
+                },
+                "axisFontFamily": { 
+                    "displayName": "Axis Font Family", 
+                    "type": { 
+                        "formatting": { 
+                            "fontFamily": true 
+                        } 
+                    } 
+                }  
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "measure": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "measure"
+            }
+        }
+    ]
+}

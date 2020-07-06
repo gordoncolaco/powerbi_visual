@@ -1,0 +1,17 @@
+{
+    "version": "1.1.1",
+    "author": {"name":"Gordon","email":"gc00632426@techmahindra.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/flameB278C635265047FB81294A13DEDBD9CF.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"flame","displayName":"flame","guid":"flameB278C635265047FB81294A13DEDBD9CF","visualClassName":"Visual","version":"1.1.1","description":"This visual is used to crate a flame gauge","supportUrl":"https://community.powerbi.com","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
